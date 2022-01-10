@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Movies from "./containers/Movies";
 
 
 function App() {
   return (
-    <h1>Hello Pet</h1>
+    <Movies/>
   );
 }
 
