@@ -1,13 +1,14 @@
-import React, {useState} from "react";
+import React from "react";
 
 const Movie = ({name, url}) => {
 
     return(
     <>
-        <h3>{name}</h3>
-        <a href={url}>{url}</a>
+    <h3>{name}</h3>
+    <p>{url}</p>
     </>
     )
 }
 
 export default Movie;
+

@@ -37,6 +37,9 @@ const Movies = () => {
         <>
             <h1>Upcoming Film Releases for UK</h1>
             <MovieList movies={movies}/> 
+            <br></br>
+            <br></br>
+            <br></br>
         <a href= 'https://www.imdb.com/calendar/?region=gb'>View More Upcoming Releases</a>
         </>
     )
