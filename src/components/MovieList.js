@@ -17,3 +17,5 @@ const MovieList = ({movies}) => {
 }
 
 export default MovieList;
+
+{/* <Movie href= {movie.url} name={movie.name} key={movie.id}></Movie> */}
