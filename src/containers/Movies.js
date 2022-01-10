@@ -35,8 +35,10 @@ const Movies = () => {
     
     return (
         <>
-            <h1>Movies</h1>
+            <h1>Upcoming Film Releases for UK</h1>
             <MovieList movies={movies}/> 
+        
+        <a href= 'https://www.imdb.com/calendar/?region=gb'>View More Upcoming Releases</a>
         </>
     )
 }
