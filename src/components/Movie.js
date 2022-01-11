@@ -4,8 +4,7 @@ const Movie = ({name, url}) => {
 
     return(
     <>
-    <h3>{name}</h3>
-    <p>{url}</p>
+    <a href={url}>{name}</a>
     </>
     )
 }

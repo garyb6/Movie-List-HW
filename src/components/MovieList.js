@@ -5,7 +5,7 @@ const MovieList = ({movies}) => {
 
     const movieNodes = movies.map(movie => {
         return (
-            <Movie name={movie.name} key={movie.id}>""</Movie>
+            <Movie name={movie.name} key={movie.id} url={movie.url}></Movie>
         );
     });
 
@@ -17,5 +17,3 @@ const MovieList = ({movies}) => {
 }
 
 export default MovieList;
-
-{/* <Movie href= {movie.url} name={movie.name} key={movie.id}></Movie> */}
